@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components{
+    .card-musik:hover .btn-play{
+        @apply bottom-1 opacity-100
+    }
+}
+@layer base{
+    body{
+        @apply bg-gray-800 text-white
+    }
+}

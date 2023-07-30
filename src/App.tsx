@@ -1,10 +1,9 @@
-import React from 'react'
-import Audio from './Audio'
 import './index.css'
+import Navigation from './router/Navigation'
 export default function App() {
   return (
     <>
-      <Audio />
+      <Navigation />
     </>
   )
 }
